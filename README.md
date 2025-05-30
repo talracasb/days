@@ -6,7 +6,7 @@ The blob for the calendar can be found in the [data](/data/calendar.bin) directo
 
 ### Format
 
-> ![NOTE]
+> [!NOTE]
 >
 > There are no separators, and the `0`'s on the left are just to illustrate the size of each field.
 
