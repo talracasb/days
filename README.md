@@ -9,13 +9,14 @@ The blob for the calendar can be found in the [data](/data/calendar.bin) directo
 > [!NOTE]
 >
 > There are no separators, and the `0`'s on the left are just to illustrate the size of each field.
+> Entries repeat after the header until the end of the file.
 
 ```txt
 HEADER (2 BYTES)
 
 0000 0000 - Year of compilation in little endian
 
-ENTRY (2 BYTES)
+ENTRIES (2 BYTES)
 
 0000      - First 4 bits for years after compilation
 0000      - Next 4 bits for month
